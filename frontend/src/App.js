@@ -201,11 +201,13 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className="app">
       <div className="header">
         <h1>📚 Notes Simplifier</h1>
         <p>Upload any document (PDF, Word, Text) or paste content directly for AI-powered summaries</p>
       </div>
+      
+      <div className="container">
 
       <div className="upload-section">
         <div className="input-mode-selector">
@@ -298,6 +300,7 @@ function App() {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }
